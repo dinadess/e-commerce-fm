@@ -76,7 +76,11 @@ export default function ProductGallery({ isMobile }) {
 						className="group absolute top-1/2 -translate-y-1/2 right-6 bg-white rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center hover:shadow-xl transition-shadow"
 						title="Next"
 						onClick={handleNext}>
-						<svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+						<svg
+							width="13"
+							height="18"
+							xmlns="http://www.w3.org/2000/svg"
+							aria-hidden="true">
 							<path
 								d="m2 1 8 8-8 8"
 								stroke="#1D2026"
@@ -176,7 +180,8 @@ export default function ProductGallery({ isMobile }) {
 										<svg
 											width="13"
 											height="18"
-											xmlns="http://www.w3.org/2000/svg">
+											xmlns="http://www.w3.org/2000/svg"
+											aria-hidden="true">
 											<path
 												d="m2 1 8 8-8 8"
 												stroke="#1D2026"

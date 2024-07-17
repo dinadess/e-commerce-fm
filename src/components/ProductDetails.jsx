@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import CartIcon from '../assets/images/icon-cart.svg';
 
 import { ToastContainer, toast } from 'react-toastify';
 

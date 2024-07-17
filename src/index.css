@@ -79,7 +79,7 @@ header a.header-link {
 	}
 
 	header a.header-link {
-		@apply text-base text-dark-grayish-blue font-normal hover:text-black hover:border-b-4 hover:border-b-orange pb-[2.5rem];
+		@apply text-base text-dark-grayish-blue font-normal hover:text-black hover:border-b-4 hover:border-b-orange pb-[3rem];
 	}
 
 	main {

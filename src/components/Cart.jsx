@@ -52,7 +52,7 @@ export default function Cart({ cart, emptyCart, closeCart }) {
 								</strong>
 							</p>
 						</div>
-						<button onClick={handleDelete}>
+						<button onClick={handleDelete} disabled={isExploding}>
 							<img src={DeleteIcon} alt="Delete" />
 						</button>
 					</div>
