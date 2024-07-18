@@ -22,7 +22,7 @@ export default function Header({ cart, emptyCart, isTablet }) {
 				{menuIsOpen ? (
 					<img src={CloseIcon} alt="Close menu" />
 				) : (
-					<img src={MenuIcon} alt="Menu" />
+					<img src={MenuIcon} alt="Open Menu" />
 				)}
 			</button>
 			<a href="#" className="inline-block z-20">

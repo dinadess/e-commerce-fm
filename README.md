@@ -29,11 +29,12 @@ Users should be able to:
 - Add items to the cart
 - View the cart and remove items from it
 
-Added by myself :
+Added by me :
 
 - Show a toast when users add a product to the cart
 - Show a confetti explosion when the user checks out
 - Disable "Add to cart button" when there's 0 product to add
+- Navigate the gallery modal with keyboard (left and right arrows)
 - Made a responsive view for tablet devices.
 
 ### Screenshot

@@ -69,7 +69,7 @@ export default function ProductGallery({ isMobile }) {
 					</button>
 					<img
 						src={products.at(index)}
-						alt="Shoes"
+						alt="White and marron sneakers showcased on an orange background."
 						className="w-full h-[300px] sm:h-auto max-h-[500px] object-cover"
 					/>
 					<button
@@ -96,11 +96,11 @@ export default function ProductGallery({ isMobile }) {
 			{!isMobile && (
 				<div className="desktop-gallery mb-8 md:mb-0">
 					<div
-						className="mb-8 w-full md:w-[28rem] rounded-xl"
+						className="mb-8 w-full md:w-[28rem] rounded-xl cursor-pointer"
 						onClick={() => setDialog(true)}>
 						<img
 							src={products.at(index)}
-							alt="Shoes"
+							alt="White and marron shoes standing on an orange background."
 							className="rounded-xl w-full"
 						/>
 					</div>
@@ -112,7 +112,7 @@ export default function ProductGallery({ isMobile }) {
 								onClick={() => setIndex(i)}>
 								<img
 									src={t}
-									alt="Shoes"
+									alt={`Shoes ${i}`}
 									className={`w-24 rounded-xl transition border-2 ${
 										i === index
 											? 'border-orange opacity-40'
@@ -170,7 +170,7 @@ export default function ProductGallery({ isMobile }) {
 									</button>
 									<img
 										src={products.at(index)}
-										alt="Shoes"
+										alt="Main shoes"
 										className="rounded-xl w-full"
 									/>
 									<button
@@ -201,7 +201,7 @@ export default function ProductGallery({ isMobile }) {
 											onClick={() => setIndex(i)}>
 											<img
 												src={t}
-												alt="Shoes"
+												alt={`Shoes ${i}`}
 												className={`w-24 rounded-xl transition border-2  ${
 													i === index
 														? 'border-orange opacity-80'
